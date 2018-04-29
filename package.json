@@ -5,6 +5,7 @@
 	"main": "build/index.js",
 	"scripts": {
 		"build": "babel lib -d build",
+		"build:watch": "babel lib -w -d build",
 		"lint": "eslint lib/**; exit 0",
 		"lint:watch": "esw -w lib/**",
 		"prepublish": "npm run build"
@@ -13,8 +14,7 @@
 		"type": "git",
 		"url": "git+https://github.com/thiagosantana/component-lib.git"
 	},
-	"author":
-		"Thiago RS Santana <thiago.santana@gmail.com> (http://thiagosantana.online)",
+	"author": "Thiago RS Santana <thiago.santana@gmail.com> (http://thiagosantana.online)",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/thiagosantana/component-lib/issues"
