@@ -1,0 +1,19 @@
+{
+  "name": "component-lib",
+  "version": "0.0.1",
+  "description": "an example component library built with React!",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagosantana/component-lib.git"
+  },
+  "author": "Thiago RS Santana <thiago.santana@gmail.com> (http://thiagosantana.online)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiagosantana/component-lib/issues"
+  },
+  "homepage": "https://github.com/thiagosantana/component-lib#readme"
+}
